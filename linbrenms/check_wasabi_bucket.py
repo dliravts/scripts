@@ -33,8 +33,8 @@ def calculate_size(size, _size_table):
 
 if __name__ == '__main__':
     # Keys for accessing billing data.
-    wasabi_access_key = 'Y5A1YRA82X76INRJR3Q4'
-    wasabi_secret_key = '2smIXInCd1QiJ3GQDQiqAGNJzrhoSNTRbCPIw0v1'
+    wasabi_access_key = ''
+    wasabi_secret_key = ''
     gmail_sender = 'sender@xyz.com'
     receiver = 'receiver@xyz.com'
     # If you have 2FA then please enable application passwords for separate instance login.
