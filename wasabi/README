@@ -1,0 +1,2 @@
+docker build -t wasabi-exporter .
+docker run -d -e WASABI_ACCESS_KEY=KEY -e WASABI_SECRET_KEY=KEY -p 9150:9150 --name wasabi-exporter --restart unless-stopped wasabi-exporter
